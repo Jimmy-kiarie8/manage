@@ -1,0 +1,325 @@
+body{
+    font-family: 'Source Sans'; 
+}
+.clearfix{
+	padding: 3%;
+	clear: all;
+}
+
+.navbar a{
+	text-decoration: none;
+}
+.is-danger{
+    border: 1px solid #ff3860 !important;
+}
+
+/*home*/
+
+#home .panel p{
+	font-size: 20px;
+}
+#home .panel-block{
+	padding: 20px 0px 20px 0;
+}
+#home table .fa-eye{
+	color: #0fc;
+}
+/*#home input{
+    border-radius: 20px;
+    border: 1px solid #0fc;
+}*/
+#home a{
+	text-decoration: none;
+}
+#home span{
+	margin-left: -30px;
+}
+#home .is-danger{
+    border: 1px solid #ff3860 !important;
+}
+#home .panel-icon{
+    margin-right: 55px !important;
+}
+#home .panel{
+    background: #eee !important;
+}
+
+
+
+/*Show*/
+/*#show .panel-block label{
+	margin-right: 20px;
+}
+*/
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    background: rgba(255,255,255,.5);
+}
+.carousel-indicators .active {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    background: #0c0;
+}
+
+/*Admin*/
+#admin input{
+    border-radius: 20px;
+    border: 1px solid #6cccf2;
+    /*background: #f0f0f0;*/
+    color: #000;
+}
+#admin .panel-block{
+    background: #f0f0f0;
+}
+#admin .panel-block:hover{
+    background: #fff;
+    color: #000;
+    transition: 200ms;
+}
+#admin .panel-heading{
+    background: #f5f5f5;
+    color: #000;
+    padding-bottom: 15px;
+}
+#admin .panel-heading button{
+    background: #fff;
+    color: #000;
+}
+#admin .panel-heading button:hover{
+    background: #00d1b2;
+    color: #fff;
+}
+#admin .is-danger{
+    border: 1px solid #ff3860 !important;
+}
+/*#admin .is-danger {
+    border: none !important;
+}*/
+
+
+.wrap{
+    /*left: 15.625em;*/
+    transition: left 300ms ease;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/*CSV*/
+#csv a{
+    text-decoration: none;
+}
+
+/*Create*/
+#create{
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+}
+
+/*calendar*/
+#calendar .fa-eye{
+    color: #0fc;
+}
+/*#calendar input{
+    border-radius: 20px;
+    border: 1px solid #0fc;
+}*/
+#calendar a{
+    text-decoration: none;
+}
+#calendar .is-danger{
+    border: 1px solid #ff3860 !important;
+}
+#calendar .panel-icon{
+    margin-right: 30px !important;
+}
+#calendar .panel{
+    background: #f00 !important;
+}
+
+/*event*/
+#event .fa-eye{
+    color: #0fc;
+}
+/*#event input{
+    border-radius: 20px;
+    border: 1px solid #0fc;
+}*/
+#event a{
+    text-decoration: none;
+}
+#event .is-danger{
+    border: 1px solid #ff3860 !important;
+}
+#event .panel-icon{
+    margin-right: 30px !important;
+}
+#event .panel{
+    background: #eee !important;
+}
+
+/*active*/
+#active input{
+    border-radius: 0px;
+}
+#user{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    background: #eee;
+    padding: 40px;
+}
+#user hr{
+    /*border-width: 3px;*/
+    border-color: #f00 !important;
+    height: 1px;
+    max-width: 200px;
+    margin: auto;
+    background: #000 !important;
+}
+#user h1{
+    font-size: 25px;
+}
+
+#mySidebar a{
+    text-decoration: none;
+}
+#mySidebar .router-link-exact-active{
+    background: #fff!important;
+    color: #000 !important;
+}
+#view #footer{
+    background: url('/storage/img/footer.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#view #users{
+    background: url('/storage/img/footer.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 30px 0;
+    color: #fff;
+}
+/* #view .input-group .input-group__details::before {
+    background-color: #fff !important;
+}
+#view .input-group--text-field-box:not(.input-group--textarea).input-group--multi-line label {
+    color: #fff;
+}
+#view .input-group__input{
+    color: #fff !important;
+} */
+
+/*Home*/
+/*#home .panel-block input[type=text] {
+    width: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+*/
+#home .panel-block input[type=text]:focus {
+    width: 100%;
+}
+
+#home .fa-search { 
+    position: relative;
+    z-index: 1;
+    /*left: 2px;*/
+    font-size: 15px;
+    top: 19px;
+    color: #000;
+    cursor:pointer;
+    width: 0; 
+}
+.input-group .input-group__details::before {
+    background-color: #000 !important;
+    z-index: 1000 !important;
+    height: 2px !important;
+}
+/*.input-group--focused .input-group__details::before {
+    background-color: #f00 !important;
+}
+.input-group .input-group__error{
+    color: #f00 !important;
+}
+.input-group.input-group--error label {
+    color: #f00 !important;
+}*/
+/*.input-group .input-group__error label{
+    color: #f00 !important;
+}*/
+/*.input-group .input-group__error .input-group__details{
+    color: #f00 !important;
+}
+*/
+.input-group.input-group--error .input-group__details::before {
+    background-color: #f00 !important;
+}
+
+.alert.alert {
+    background: #dff0d8 !important;
+    color:   #3c763d!important;
+    text-align: center;
+}
+
+#blade{
+    background: #f0f0f0 !important;
+    padding: 30px 0;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.input-group .input-group__details::before {
+    background-color: #e1e1e1 !important;
+    /*z-index: 1000 !important;*/
+    /*height: 2px !important;*/
+}
+.input-group--text-field label {
+    color: #696969;
+}
+
+.input-group.input-group--error .input-group__details::before {
+    background-color: #f00 !important;
+}
+
+.input-group__details:after {
+    background-color: #00f;
+    color: #f00;
+    top: 0;
+    height: 2px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: center center 0;
+    transform-origin: center center 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.input-group.input-group--text-field:not(.input-group--single-line):not(.input-group--error).input-group--focused label {
+    color: #00f;
+}
+
+.input-group.input-group--error label {
+    color: #f00;
+}
+.input-group.input-group--error .input-group__messages {
+    color: #f00;
+}

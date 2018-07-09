@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// font awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bulma
+@import "~bulma/bulma";
+
+
+@import "~noty/src/noty.scss";
+@import "~noty/src/themes/mint.scss";
+
+// @import url("//unpkg.com/element-ui@2.2.0/lib/theme-chalk/index.css");
+
+// @import '~vuetify/src/stylus/main'
+// import 'vuetify/dist/vuetify.min.css'
